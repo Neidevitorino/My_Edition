@@ -1,0 +1,222 @@
+	/*ID para o menu - index e cardapio
+	#menu {
+	display: block;
+	font-size: 0.813em;
+	padding-top:2em;
+	padding-left:0.5em;
+	}
+	/*DIV para definir cor de fundo das páginas que o css está sendo chamado*/
+	body{
+	background-color:#F7F7F7;
+	}
+	/*DIV que configura a logomarca - index e cardapio*/
+	#div_logomarca{
+	/*width: 8.063em;
+	height: 8.188em;
+	padding-top:2.500em;*/
+	width: 255px;
+	padding-left: 400px;
+	height: 160px;
+	display: block;
+	}
+	/*Tira o sublinhado dos links*/
+	a:hover{
+	color:saddlebrown;
+	}
+	/*Editando o h1 e h2 - index e cardapio
+	h1, h2 {
+	color: #9B8F5E;
+	font-family: 'Inconsolata', monospace;
+	padding-bottom:0.6em;
+	padding-top:0.6em;
+	padding-left:0.3em;
+	}
+	/*Centralizando o titulo cardapio
+	#h1card{
+	text-align:center;
+	}
+	/*definindo font para h1
+	h1{
+	font-size:1.5em;
+	}
+	/*definindo fonte para h2
+	h2{
+	font-size:1.313em;
+	}
+	definindo fonte para h3
+	h3{
+	font-size:1.3em;
+	}
+	/* ID da tabela dos produtos
+	#tableprodutos{
+	border:solid 3px;
+	display:table;
+	margin:1em;
+	width:100%;
+	}
+	th{
+	text-align:center;
+	}
+	definindo borda para tabela de produtos
+	td{
+	border:2px solid black;
+	}
+	*/
+	table{
+	border-collapse:separate;
+	border-spacing:0.625em;
+	}
+	.description{
+	vertical-align:top;
+	}
+	.preco{
+	vertical-align:top;
+	text-align:center;
+	}
+	tfoot{
+	text-align: center;
+	background-color:#dcafa0;
+	}
+	.page{
+	margin:0.625em 0 0 0.625em;
+	}
+	#container{
+	max-width:940px;
+	margin: auto;
+	}
+	div#banner{
+	position:relative;
+	width:940px;
+	height:201px;
+	background: url(img/banner.jpg) no-repeat center center;
+	box-sizing: border-box;
+	border-radius: 10px;
+	}
+	div#banner div{
+	position:absolute;
+	left:65px;
+	top:15px;
+	/* margin:15px 70px; */
+	text-align: center;
+	padding: 45px 5px;
+	box-sizing: border-box;
+	width:140px;
+	height:140px;
+	border-radius:50%;
+	background:rgba(88, 51, 33, 0.6);
+	color:#FFFFFF;
+	}
+	div#banner div::before {
+	content: "Cafés super selecionados e com muito mais sabor";
+	}
+	.hide{
+	font-size: 5px;
+	visibility: hidden;
+	}
+	footer div p{
+	text-align:right;
+	}
+	#foot{
+	border-left: thick solid #ffffff;
+	width: 100%;
+	height:1px;
+	float: right;
+	background-color:black;
+	}
+	p{
+	font-size: 16px;
+	margin-top: 30px;
+	}
+	#nomargin{
+		margin-top:5px;
+	}
+	/*ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color:#532e24;
+	}
+	li a{
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	color:#FFFFFF;
+	}
+	li{
+	float: left;
+	}*/
+	#fl{
+		float:left;
+	}
+	#sidel{
+		position:relative;
+		margin-left:auto;
+		float:left;
+		width:48%;
+		height:230px;
+		padding:15px;
+		}
+	.ttlpic{
+		font-size: 44px;
+		color: #4e2010;
+		font-family: 'Heebo', sans-serif;
+		margin: 20px;
+	}
+	h2{
+		font-size: 26px;
+		color: #4e2010;
+		font-family: 'Ubuntu', sans-serif;
+		padding-top:20px;
+		padding-bottom:10px;
+	}
+	#sider{
+		position:relative;
+		margin-right:auto;
+		float:right;
+		width:45%;
+		height:230px;
+		padding:15px;
+	}
+	ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #532e24;
+	padding-left:210px;
+	}
+	li {
+	float:left;
+	}
+	li a {
+	display:block;
+	text-align: center;
+	padding: 14px;
+	text-decoration: none;
+	color: #FFFFFF;
+	padding-left:15px;
+	}
+	footer{
+	margin-top:25px;
+	}
+	#center{
+	text-align:center;
+	}
+	iframe{
+	margin: 20px;
+	margin-left: 30px;
+	}
+	.map{
+	overflow:hidden;
+	height:400px;
+	width:900px;
+	}
+	.tamanhodiv{
+	background:none!important;
+	height:400px;
+	width:900px;
+	}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+  <div id="q1"></div>
+  <script>
+    var divQ1 = document.getElementById("q1");
+    var formQ1 = document.createElement('form'); 
+    divQ1.appendChild(formQ1);
+        
+    var labelLA = document.createElement('label'); 
+    labelLA.innerHTML = "Lado A: ";
+    formQ1.appendChild(labelLA);  
+        
+    var inputLA = document.createElement('input'); 
+    inputLA.setAttribute("type", "number");
+    inputLA.setAttribute("id", "lado_a");
+    formQ1.appendChild(inputLA);  
+        
+    var linebreak = document.createElement('br');
+    formQ1.appendChild(linebreak);  
+        
+    var labelLB = document.createElement('label'); 
+    labelLB.innerHTML = "Lado B: ";
+    formQ1.appendChild(labelLB);  
+        
+    var inputLB = document.createElement('input'); 
+    inputLB.type = 'number'
+    inputLB.id = "lado_b";
+    formQ1.appendChild(inputLB); 
+        
+    linebreak = document.createElement('br');
+    formQ1.appendChild(linebreak);  
+        
+    var labelLC = document.createElement('label'); 
+    labelLC.innerHTML = "Lado C: ";
+    formQ1.appendChild(labelLC);  
+        
+    var inputLC = document.createElement('input'); 
+    inputLC.setAttribute("type", "number");
+    inputLC.setAttribute("id", "lado_c");
+    formQ1.appendChild(inputLC); 
+        
+    linebreak = document.createElement('br');
+    formQ1.appendChild(linebreak);   
+        
+    var botao = document.createElement('input'); 
+    botao.setAttribute("type", "button");
+    botao.setAttribute("value", "Calcular");
+    botao.onclick = function (){
+        //fazer o calculo aqui
+        alert(document.getElementById('lado_a').value);
+        alert(inputLB.value);
+        alert(inputLC.value);
+    }  
+    formQ1.appendChild(botao); 
+      
+  </script>
+</body>
+</html>

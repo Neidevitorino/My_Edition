@@ -1,0 +1,13 @@
+#sprite{
+    width: 72px;
+    height:72px;
+}
+#sprite1{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: url(sprite.png) -35px -138px;
+}
+/*#sprite1:hover{
+    -webkit-filter: blur(3px); 
+}*/
