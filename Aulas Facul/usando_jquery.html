@@ -1,0 +1,97 @@
+  <!doctype html>
+  <html>
+  <head>
+  <meta charset="utf-8">
+  <title>Muda Cor</title>
+      <!-- link para o arquivo da biblioteca JQuery no CDN Google -->
+  <script type=text/javascript src=/JQuery/jquery-3.2.1.js>
+  $(document).ready(function() {
+    $('#alteraCor').click(function() {
+      $('#cor').css('color','#00F');
+    });
+  });
+  
+    	
+	$(document).ready(function() {
+        
+
+		$('#span-1').css('background-color','blue');
+		
+        //todo mundo com a classe "par" vai receber este css
+		$('.par').css('background-color','red');
+		
+        //todas as divs com classe impar vão receber este css
+		$('div.impar').css('background-color','yellow');
+		
+        //primeira tag p ficará verde
+		$('p:first').css('background-color','green');
+		
+        //próximo depois do primeiro p ficará com cor (fonte) vermelha
+		$('p:first').next().css('color','red');
+		
+        //ultimo p ficará com a fundo marrom
+		$('p:last').css('background-color','brown');
+		
+        //todos com o atributo title recebem este css (cor rosa)
+		$('[title]').css('background-color','pink');
+		
+        //todos que estiverem no title o valor 9 receberá a cor cinza
+		$("[title='nove']").css('background-color','gray');
+		
+		//impar e par
+		$("li:odd").css('background-color','LightCoral');
+		$("li:even").css('background-color','LightSalmon');
+		
+		
+		$("[id*='o']").css('color','blue');
+	
+	
+		$('span').each(function(index, value){
+		
+			console.log($(value).text()); 
+			
+			console.log($(value).attr('class'));
+			
+			console.log(value.className);
+			
+		});
+	
+	});  
+  </script>
+    <style>
+        h1 { color:#f00;  /* título vermelho */ }
+    </style>
+    </head>
+    <body>
+    <h1 id="cor">Título que muda de cor</h1>
+    <a href="#" id="alteraCor">Título azul</a>
+
+    <br />
+
+	<span id="span-1" class="impar">UM</span>
+	<span id="span-2" class="par">DOIS</span>
+	<span id="span-3" class="impar">TRES</span>
+	<span id="span-4" class="par">QUATRO</span>
+	
+	<div class="impar">
+	
+		<p>CINCO</p>
+		<p title='seis'>SEIS</p>
+		<p>SETE</p>
+		<p title='oito'>OITO</p>
+		<p title='nove'>NOVE</p>
+		<p>DEZ</p>
+	
+	</div>
+	
+	<ul>
+	
+		<li id='onze'>ONZE</li>
+		<li id='doze'>DOZE</li>
+		<li id='treze'>TREZE</li>
+		<li id='quatorze'>QUATORZE</li>
+	
+	<ul>
+	
+</body>
+</html>
