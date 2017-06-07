@@ -242,3 +242,12 @@
         text-align: center;
         padding-top: 10px;
     }
+
+    .h2lorem{
+        font-family: 'Heebo', sans-serif;
+        padding-top: 30px;
+        padding-left: 250px;
+        padding-bottom: 30px;
+        font-size: 55px;
+        color: #4e2010;
+    }
