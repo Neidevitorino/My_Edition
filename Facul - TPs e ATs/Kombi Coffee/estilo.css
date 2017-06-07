@@ -32,12 +32,14 @@
     #nossosCafes{
         padding: 20px;
         font-family: Arial, Helvetica, sans-serif;
+        color: #4e2010;
     }
 	#h2card{
 		font-family: Arial, Helvetica, sans-serif;
         font-size: 27px;
         text-align: center;
         padding-bottom: 30px;
+        color: #4e2010;
 	}
     .description{
         vertical-align:top;
