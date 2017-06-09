@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+  <title>JS Bin</title>
+</head>
+<body>
+  
+  <div id="tabuleiro"></div>
+  
+  <script>
+    
+    //elemento recebera como filho o element de param. 
+    $('#tabuleiro').append('<b> Brasil </b>');
+    
+    
+    //este elemento será filho do elem. do param.
+    $('<i> Argentina </i>').appendTo('#tabuleiro');
+    
+    
+    //elemento será o primeiro filho
+    $('#tabuleiro').prepend('<u> Paraguai </u>');
+    
+    //inserir antes
+    $('#tabuleiro').before('<b> Uruguai </b>');
+    
+    //inserir depois
+   $('#tabuleiro').after('<b> Chile </b>');
+    
+    
+    $('b').remove(":contains('guai')");
+    
+    //$('#tabuleiro').remove();
+    
+    var nova_div = $('<div/>',{
+                              class: 'linha',
+                              id: 'linha'+1	
+                              });
+    
+    $('#tabuleiro').append(nova_div);
+    
+    
+    
+  </script>
+
+</body>
+</html>
